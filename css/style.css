@@ -195,6 +195,17 @@ p {
     /*height: 2000px;*/
 }
 
+/*INFOGRAPHIC*/
+.infograph {
+    color: white !important;
+    background-image: url("../PSL_Images/phillytech.png");
+    height:400px;
+    padding-top: 100px !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*height: 2000px;*/
+}
+
 /*SERVICES*/
 
 .services {
@@ -576,6 +587,10 @@ a.btn-primary:hover {
         background-color: white;
 }
 
+.connect {
+        background-color: #d1f9df;
+}
+
 .events {
-  background-color: #d1f9df;
+  background: url(../PSL_Images/white_brick_wall.png);
 }
