@@ -575,3 +575,7 @@ a.btn-primary:hover {
     padding:50px;
         background-color: white;
 }
+
+.events {
+  background-color: #d1f9df;
+}

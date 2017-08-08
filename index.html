@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <meta name="description" content="PSL Student Board">
   <!-- Latest compiled and minified CSS -->
@@ -55,6 +56,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#About_Us">About Us</a>
           <li><a href="#Events">Events</a>
+          <li><a href="#Learn">Learn</a>
           <li><a href="#Contact">Contact</a>
           <li><a href="#Get Involved">Get Involved</a>
         </ul>
@@ -89,16 +91,17 @@
   <div class="jumbotron">
     <div class="container text-center">
       <h1>PSL Student Portal</h1>
-      <p>[One-line description here]</p>
+      <p style="color: black; text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;">Connecting you to the Philly Startup scene...</p>
     </div><!-- End container -->
   </div><!-- End jumbotron -->
 
 <!-- Gallery -->
 <div class="container">
+<!-- allows for scroll to work -->
     <div class="center">
         <a name="About_Us"><p style="color: white"><strong>placeholder</strong></p></a>
        <hr>
-    </div>
+    </div> <!-- end scroll section -->
       <div class="container">
         <section>
             <section>
@@ -120,13 +123,15 @@
                   <div class="item">
                     <img src="PSL_Images/rachel.jpg" alt="Text of the image" class="center-block">
                     <div class="carousel-caption">
-                        <p>"Quote 2" - Student 2</p>
+                        <h4>Lucy Ferreira, Jefferson University</h4>
+                      <button type="button" class= "btn btn-info btn-sm" data-toggle="modal" data-target="#LucyModal" style="background-color:maroon">Bio</button>
                     </div>
                   </div>
                   <div class="item">
-                    <img src="PSL_Images/lindsay.jpg" alt="Text of the image" class="center-block">
+                    <img src="PSL_Images/calista.jpg" alt="Text of the image" class="center-block" style="height: 400px; width 800px; overflow:hidden">
                     <div class="carousel-caption">
-                        <p>"Quote 3" - Student 3</p>
+                        <h4>Calista Dominy, University of Pennsylvania</h4>
+                        <button type="button" class= "btn btn-info btn-sm" data-toggle="modal" data-target="#CalistaModal" >Bio</button>
                     </div>
                   </div>
                   <div class="item">
@@ -146,16 +151,46 @@
                   <div class="modal-content">
                     <div class="modal-header">
                       <button type="button" class="close" data-dismiss="modal">&times;</button>
-                      <h4 class="modal-title" style="color:maroon">Temple University Resources</h4>
+                      <h4 class="modal-title" style="color:#64a87c">IZZY SARLO</h4>
                     </div>
                     <div class="modal-body">
-                      <h2>Blackstone Launchpad</h2>
-                      <h2>The innovation and Entrepreneurship Institute</h2>
-                      <h2>Venture Club</h2>
-                      <h2>Women's Entrepreneurial Club</h2>
-                      <h2>Be Your Own Boss Bowl</h2>
-                      <a href="http://www.google.com" target="_blank">GOOGLE</a>
+                    
+                        <p><i class="fa fa-adjust"></i> Izzy is a sophomore at <strong>Temple University</strong> double majoring in marketing and entrepreneurship. Originally from NY, she’s been loving the close-knit startup community she’s found in Philly. Izzy has been interning at Philly Startup Leaders for 9 months and will continue there this upcoming semester as their Marketing Coordinator. <i class="fa fa-adjust"></i></p>
+                        <br>
+                        <img src="PSL_Images/Izzy.jpg" style="height: 400px; width 800px; overflow:hidden" alt="Text of the image" class="center-block">
+                        <br>
+                        <!--CHANGE TO LINK TO PROFILE -->
+                        <a href="http://www.linkedin.com" class="btn btn-default btn-sm" target="_blank">LinkedIn</a>
+                        <br>
+                        <a href="mailto:isabellasarlo@temple.edu" class="btn btn-default btn-sm">Email</a>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal" target="_blank">Close</button>
+                    </div>
+                  </div>
 
+                </div>
+              </div>
+<!-- End Izzy modal !-->
+
+<!--Lucy modal for about us !-->
+              <div id="LucyModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title" style="color:#64a87c">LUCY FERREIRA</h4>
+                    </div>
+                    <div class="modal-body">
+                    
+                        <p><i class="fa fa-adjust"></i> My name is Lucy and I am a business management major with a minor in entrepreneurship and sustainability at <strong>Jefferson University</strong> (PhilaU). My goals involve eventually working for a startup or potentially becoming a COO or CMO for my own startup. Starting or joining an organization that works to combat and prevent modern-day slavery and human trafficking or segregation is what I see myself working towards. I also have a huge interest for consulting aspiring entrepreneurs and providing guidance for building on their business ventures. <i class="fa fa-adjust"></i></p>
+                        <hr>
+                        <!--CHANGE TO LINK TO PROFILE -->
+                        <a href="http://www.linkedin.com" class="btn btn-default btn-sm" target="_blank">LinkedIn</a>
+                        <br>
+                        <a href="mailto:ferreira9504@students.philau.edu" class="btn btn-default btn-sm">Email</a>
                     </div>
                     <div class="modal-footer">
                       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -164,7 +199,37 @@
 
                 </div>
               </div>
-<!-- End Izzy modal !-->
+<!-- End Lucy modal !-->
+
+<!--Calista modal for about us !-->
+              <div id="CalistaModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+                  <!-- Modal content-->
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title" style="color:#64a87c">CALISTA DOMINY</h4>
+                    </div>
+                    <div class="modal-body">
+                    
+                        <p><i class="fa fa-adjust"></i> insert stuff <i class="fa fa-adjust"></i></p>
+                        <hr>
+                        <img src="PSL_Images/calista.jpg" style="height: 300px; width 500px; overflow:hidden" alt="Text of the image" class="center-block">
+                        <br>
+                        <!--CHANGE TO LINK TO PROFILE -->
+                        <a href="http://www.linkedin.com" class="btn btn-default btn-sm" target="_blank">LinkedIn</a>
+                        <br>
+                        <a href="mailto:cdominy@seas.upenn.edu" class="btn btn-default btn-sm">Email</a>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+<!-- End Calista modal !-->
 
             </section>
         </section>
@@ -173,7 +238,7 @@
   <div class="container">
     <section>
       <div class="page-header" id="About">
-        <h2>About:<small> We are...</small></h2>
+        <h2>- ABOUT -:<small> The PSL Student Board is a <span style="color:#64a87c"><strong>pan-Philadelphia organization dedicated to connecting students to entrepreneurship-oriented opportunities</strong></span>, especially those within the Philly startup ecosystem. Led by student representatives from schools all across the city, the Board and its members provide resources like online guides and podcasts, hosts events like [INSERT FUTURE EVENTS], and helps students find the right path to help develop their interests in various aspects of entrepreneurship and startups. <span style="color:#64a87c"><strong>Our mission is to make it easier for students to explore startups</strong></span>, one of the most exciting sectors of the 21st century job market, and start, grow, and build a company or a career in one of the best cities in the country, Philadelphia!</small></h2>
 
 
 <!--EVENTS SECTION !-->
@@ -195,11 +260,11 @@
                 <li><a class="btn btn-default" href="#" data-filter=".march">May</a></li>
             </ul><!--/#portfolio-filter-->
         </div>
-        <div class="container">
-            <div class="">
+        <div class="container events">
                 <div class="portfolio-items">
                     <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3 may">
                         <div class="recent-work-wrap">
+                        <br>
                             <img class="img-responsive" src="PSL_Images/item11.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
@@ -213,6 +278,7 @@
 
                     <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3 april">
                         <div class="recent-work-wrap">
+                        <br>
                             <img class="img-responsive" src="PSL_Images/item2.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
@@ -226,6 +292,7 @@
 
                     <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3 april">
                         <div class="recent-work-wrap">
+                        <br>
                             <img class="img-responsive" src="PSL_Images/item1.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
@@ -239,6 +306,7 @@
 
                     <div class="portfolio-item joomla wordpress apps col-xs-12 col-sm-4 col-md-3 march">
                         <div class="recent-work-wrap">
+                        <br>
                             <img class="img-responsive" src="PSL_Images/item7.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
@@ -252,6 +320,7 @@
 
                     <div class="portfolio-item joomla html bootstrap col-xs-12 col-sm-4 col-md-3 march">
                         <div class="recent-work-wrap">
+                        <br>
                             <img class="img-responsive" src="PSL_Images/item4.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
@@ -267,7 +336,6 @@
 
 
                 </div>
-            </div>
         </div>
     </div>
 
@@ -295,17 +363,50 @@
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title" style="color:maroon">Temple University Resources</h4>
+                        <h4 class="modal-title" style="color:#64a87c">TEMPLE UNIVERSITY RESOURCES</h4>
                       </div>
                       <div class="modal-body">
-                        <h2>Blackstone Launchpad</h2>
-                        <h2>The innovation and Entrepreneurship Institute</h2>
-                        <h2>Venture Club</h2>
-                        <h2>Women's Entrepreneurial Club</h2>
-                        <h2>Be Your Own Boss Bowl</h2>
-                        <a href="http://www.google.com" target="_blank">GOOGLE</a>
+                        <h2><i class="fa fa-certificate"> Programs</i></h2>
+                        <div class="list-group">
+ 
+                      <a href="https://research.temple.edu/TULaunchPad" target="_blank" class="list-group-item">
+                       <h4 class="list-group-item-heading">Blackstone Launchpad</h4>
+                       <p class="list-group-item-text"><small>Campus based entrepreneurship program, designed to support and mentor students and alumni.</small></p>
+                      </a>
+                      <a href="http://www.fox.temple.edu/cms_research/institutes-and-centers/innovation-entrepreneurship-institute/" target="_blank" class="list-group-item">
+                     <h4 class="list-group-item-heading">The Innovation and Entrepreneurship Institute</h4>
+                    <p class="list-group-item-text"><small>Proactively promotes an entrepreneurial spirit throughout all 17 schools and colleges of Temple University.</small></p>
+                    </a>
+                  </div>
 
-                      </div>
+                  <hr>
+
+                  <h2><i class="fa fa-group"> Clubs</i></h2>
+                        <div class="list-group">
+ 
+                      <a href="https://temple.campuslabs.com/engage/organization/tuvc" target="_blank" class="list-group-item">
+                       <h4 class="list-group-item-heading">Venture Club</h4>
+                       <p class="list-group-item-text"><small>We bring together students who are enthusiastic to learn about entrepreneurial finance and venture investing</small></p>
+                      </a>
+                      <a href="http://www.fox.temple.edu/cms_research/institutes-and-centers/innovation-entrepreneurship-institute/events/league-for-entrepreneurial-women/" target="_blank" class="list-group-item">
+                     <h4 class="list-group-item-heading">League for Entrepreneurial Women</h4>
+                    <p class="list-group-item-text"><small>Advocacy initiative that addresses the growing challenges and interests of entrepreneurial women in the Greater Philadelphia region.</small></p>
+                    </a>
+                  </div>
+
+                  <hr>
+
+                  <h2><i class="fa fa-photo"> Annual Events</i></h2>
+                        <div class="list-group">
+ 
+                      <a href="http://www.fox.temple.edu/cms_research/institutes-and-centers/innovation-entrepreneurship-institute/competitions/be-your-own-boss-bowl/" target="_blank" class="list-group-item">
+                       <h4 class="list-group-item-heading">Be Your Own Boss Bowl</h4>
+                       <p class="list-group-item-text"><small>Innovative business plan competition.</small></p>
+                      </a>
+                     
+                  </div>
+
+                      </div> <!-- end modal body -->
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                       </div>
@@ -316,7 +417,7 @@
 <!--END TEMPLE modal !-->
 
 <!--SWARTHMORE modal!-->
-                <button type="button" class= "btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2" style="background-color:maroon">SWARTHMORE COLLEGE</button>
+                <button type="button" class= "btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2" style="background-color:#64a87c">SWARTHMORE COLLEGE</button>
 
                 <!-- Modal -->
                 <div id="myModal2" class="modal fade" role="dialog">
@@ -326,17 +427,57 @@
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title" style="color:maroon">Swarthmore College Resources</h4>
+                        <h4 class="modal-title" style="color:#64a87c">SWARTHMORE COLLEGE RESOURCES</h4>
                       </div>
                       <div class="modal-body">
-                        <h2>Blackstone Launchpad</h2>
-                        <h2>The innovation and Entrepreneurship Institute</h2>
-                        <h2>Venture Club</h2>
-                        <h2>Women's Entrepreneurial Club</h2>
-                        <h2>Be Your Own Boss Bowl</h2>
-                        <a href="http://www.google.com" target="_blank">GOOGLE</a>
+                        
+                          <h2><i class="fa fa-certificate"> Funding Sources</i></h2>
+                        <div class="list-group">
+ 
+                      <a href="http://launchswat.com/" target="_blank" class="list-group-item">
+                       <h4 class="list-group-item-heading">Launch Swat</h4>
+                       <p class="list-group-item-text"><small>Community and resources for student creators.</small></p>
+                      </a>
+                      <a href="http://www.swarthmore.edu/sites/default/files/assets/documents/career-services/Summer%20Social%20Action%20Awards%202013.pdf" target="_blank" class="list-group-item">
+                     <h4 class="list-group-item-heading">Swarthmore Foundation Grants</h4>
+                    <p class="list-group-item-text"><small>Possibility for Swarthmore funded opportunities.</small></p>
+                    </a>
+                  </div>
 
-                      </div>
+                  <hr>
+
+                  <h2><i class="fa fa-group"> Clubs</i></h2>
+                        <div class="list-group">
+ 
+                      <a href="http://www.kineticglobal.org/" target="_blank" class="list-group-item">
+                       <h4 class="list-group-item-heading">Swarthmore Kinetic</h4>
+                       <p class="list-group-item-text"><small>Empowering college students to design and implement social issue solutions.</small></p>
+                      </a>
+                  </div>
+
+                  <hr>
+
+                  <h2><i class="fa fa-photo"> Annual Events</i></h2>
+                        <div class="list-group">
+ 
+                      <a href="http://www.swarthmore.edu/center-innovation-leadership/swattank" target="_blank" class="list-group-item">
+                       <h4 class="list-group-item-heading">SwatTank Innovation Competition</h4>
+                       <p class="list-group-item-text"><small>Opportunity to take a rough idea, product, or concept and develop it towards its next incarnation, ideation, or realization.</small></p>
+                      </a>
+                     
+                  </div>
+
+                  <h2><i class="fa fa-line-chart"> Accelerators</i></h2>
+                        <div class="list-group">
+ 
+                      <a href="http://www.swarthmore.edu/center-innovation-leadership/innovation-incubators" target="_blank" class="list-group-item">
+                       <h4 class="list-group-item-heading">Center for Innovation and Leadership, Innovation Incubators </h4>
+                       <p class="list-group-item-text"><small>Workshops and one-on-one meetings for groups of students interested in what it takes to form a business.</small></p>
+                      </a>
+                     
+                  </div>
+
+                      </div> <!-- end modal body -->
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                       </div>
@@ -348,7 +489,7 @@
 
 
 <!--JEFFERSON modal!-->
-                <button type="button" class= "btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3" style="background-color:maroon">THOMAS JEFFERSON UNIVERSITY</button>
+                <button type="button" class= "btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3" style="background-color:#64a87c">JEFFERSON UNIVERSITY</button>
 
                 <!-- Modal -->
                 <div id="myModal3" class="modal fade" role="dialog">
@@ -358,7 +499,7 @@
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title" style="color:maroon">Jefferson Resources</h4>
+                        <h4 class="modal-title" style="color:#64a87c">Jefferson Resources</h4>
                       </div>
                       <div class="modal-body">
                         <h2>Blackstone Launchpad</h2>
@@ -381,7 +522,7 @@
 
 
 <!--DREXEL modal!-->
-                <button type="button" class= "btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4" style="background-color:maroon">DREXEL UNIVERSITY</button>
+                <button type="button" class= "btn btn-info btn-lg" data-toggle="modal" data-target="#myModal4" style="background-color:#64a87c">DREXEL UNIVERSITY</button>
 
                 <!-- Modal -->
                 <div id="myModal4" class="modal fade" role="dialog">
@@ -391,7 +532,7 @@
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title" style="color:maroon">Drexel Resources</h4>
+                        <h4 class="modal-title" style="color:#64a87c">Drexel Resources</h4>
                       </div>
                       <div class="modal-body">
                         <h2>Blackstone Launchpad</h2>
@@ -413,7 +554,7 @@
 
 
 <!--PENN modal!-->
-                <button type="button" class= "btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5" style="background-color:maroon">UNIVERSITY OF PENNSYLVANIA</button>
+                <button type="button" class= "btn btn-info btn-lg" data-toggle="modal" data-target="#myModal5" style="background-color:#64a87c">UNIVERSITY OF PENNSYLVANIA</button>
 
                 <!-- Modal -->
                 <div id="myModal5" class="modal fade" role="dialog">
@@ -423,17 +564,73 @@
                     <div class="modal-content">
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title" style="color:maroon">UPenn Resources</h4>
+                        <h4 class="modal-title" style="color:#64a87c">UPENN RESOURCES</h4>
                       </div>
                       <div class="modal-body">
-                        <h2>Blackstone Launchpad</h2>
-                        <h2>The innovation and Entrepreneurship Institute</h2>
-                        <h2>Venture Club</h2>
-                        <h2>Women's Entrepreneurial Club</h2>
-                        <h2>Be Your Own Boss Bowl</h2>
-                        <a href="http://www.google.com" target="_blank">GOOGLE</a>
+                        
+                        <h2><i class="fa fa-certificate"> Funding Sources</i></h2>
+                        <div class="list-group">
+ 
+                      <a href="https://entrepreneurship.wharton.upenn.edu/innovation-fund/" target="_blank" class="list-group-item">
+                       <h4 class="list-group-item-heading">Wharton Innovation Fund</h4>
+                       <p class="list-group-item-text"><small>Catalyst to stimulate innovation and surface entrepreneurial brain power.</small></p>
+                      </a>
+                      <a href="http://mandtinnovationfund.com/" target="_blank" class="list-group-item">
+                     <h4 class="list-group-item-heading">M&T Innovation Fund</h4>
+                    <p class="list-group-item-text"><small>Seed-stage cash grants and venture development for University of Pennsylvania startups.</small></p>
+                    </a>
+                    </a>
+                      <a href="https://if.weisstech.upenn.edu/" target="_blank" class="list-group-item">
+                     <h4 class="list-group-item-heading">Weiss Tech House Innovation Fund</h4>
+                    <p class="list-group-item-text"><small>Student-run, mini-venture capital fund that offers non-dilutive funding to student-founded Penn startups.</small></p>
+                    </a>
+                  </div>
 
-                      </div>
+                  <hr>
+
+                  <h2><i class="fa fa-group"> Clubs and Programs</i></h2>
+                        <div class="list-group">
+ 
+                      <a href="https://entrepreneurship.wharton.upenn.edu/venture-initiation-program/" target="_blank" class="list-group-item">
+                       <h4 class="list-group-item-heading">Wharton Venture Initiation Program</h4>
+                       <p class="list-group-item-text"><small>Community, support, and resources you need to develop your venture, right here on the Penn campus.</small></p>
+                      </a>
+                      <a href="http://youthhack.net/blog/tag/upenn/" target="_blank" class="list-group-item">
+                       <h4 class="list-group-item-heading">YouthHack</h4>
+                       <p class="list-group-item-text"><small>Undergraduate startup club focused on developing entrepreneurial interest and skills.</small></p>
+                      </a>
+                      <a href="https://undergrad.wharton.upenn.edu/why-wharton/the-founders-club/" target="_blank" class="list-group-item">
+                       <h4 class="list-group-item-heading">The Founder's Club</h4>
+                       <p class="list-group-item-text"><small>We aim to bring together people who share the goal of launching a startup.</small></p>
+                      </a>
+                  </div>
+
+                  <hr>
+
+                  <h2><i class="fa fa-photo"> Annual Events</i></h2>
+                        <div class="list-group">
+ 
+                      <a href="http://pennapps.com/" target="_blank" class="list-group-item">
+                       <h4 class="list-group-item-heading">PennApps</h4>
+                       <p class="list-group-item-text"><small>Largest college hackathon in the world.</small></p>
+                      </a>
+                      <a href="https://entrepreneurship.wharton.upenn.edu/startup-challenge/" target="_blank" class="list-group-item">
+                       <h4 class="list-group-item-heading">Penn Wharton Startup Challenge</h4>
+                       <p class="list-group-item-text"><small>Pitch live in front of entrepreneurial alumni and to compete for funding and services to help launch startups.</small></p>
+                      </a>
+                  </div>
+
+                  <h2><i class="fa fa-line-chart"> Accelerators</i></h2>
+                        <div class="list-group">
+ 
+                      <a href="https://entrepreneurship.wharton.upenn.edu/venture-initiation-program/" target="_blank" class="list-group-item">
+                       <h4 class="list-group-item-heading">VIP-C and VIP-X </h4>
+                       <p class="list-group-item-text"><small>Accelerators through Wharton Venture Initiation Program.</small></p>
+                      </a>
+                     
+                  </div>
+
+                      </div> <!-- end modal body -->
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                       </div>
@@ -450,6 +647,11 @@
  <!-- Resources -->
  <div class="resource">
         <div class="container">
+        <!-- allows for scroll to work -->
+    <div class="center">
+        <a name="Learn"><p style="color: white"><strong>placeholder</strong></p></a>
+       <hr>
+    </div> <!-- end scroll section -->
             <div class="text-center">
                             <h1 style="color: #64a87c">- LEARN ABOUT PHILLY STARTUPS -</h1>
                             <hr>
