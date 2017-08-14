@@ -459,3 +459,11 @@ a.btn-primary:hover {
 .sectiontitle {
   color: #64a87c;
 }
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+#myImg:hover {position: relative; 
+             top: -10px;}
