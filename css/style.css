@@ -445,3 +445,17 @@ a.btn-primary:hover {
 .events {
   background: url(../PSL_Images/whitediamond.png);
 }
+
+.stroke1
+{
+    color: black;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+.sectiontitle {
+  color: #64a87c;
+}
