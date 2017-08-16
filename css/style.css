@@ -444,6 +444,11 @@ a.btn-primary:hover {
 
 .events {
   background: url(../PSL_Images/whitediamond.png);
+  text-align: center;
+}
+.events2 {
+  margin: 0 auto;
+  display: block;
 }
 
 .stroke1
