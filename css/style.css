@@ -209,11 +209,15 @@ p {
 /*INFOGRAPHIC*/
 .infograph {
     color: white !important;
-    background-image: url("../PSL_Images/phillytech.png");
-    height:400px;
+    background-image: url("../PSL_Images/phillyinfo.png");
+    height:600px;
+    width: 400px;
     padding-top: 100px !important;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin: 0 auto;
+  display: block;
+  text-align: center;
     /*height: 2000px;*/
 }
 
